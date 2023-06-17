@@ -7,7 +7,7 @@ from PIL import Image
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "ArpanMishra_Resume.pdf"
+resume_file = current_dir / "assets" / "ArpanMishraResume.pdf"
 profile_pic = current_dir / "assets" / "my-profile-pic.png"
 
 
@@ -20,18 +20,15 @@ Enthusiastic SDET eager to contribute to team success through hard work, attenti
 """
 EMAIL = "arpanmishra63@gmail.com"
 SOCIAL_MEDIA = {
-    # "YouTube": "https://youtube.com/c/codingisfun",
     "LinkedIn": "linkedin.com/in/arpan-mishra",
-    # "GitHub": "https://github.com",
-    # "Twitter": "https://twitter.com",
 }
 PROJECTS = [
     "🏆 UI Automation - Identification of the UI test cases and automation using Cypress Framework.",
     "🏆 API Automation - Identification of the API test cases and automation using Pytest Framework.",
     "🏆 API Automation Framework setup and enhancements to reduce overall execution time.",
-    "🏆 Dashbord setup using python library named streamlit - Created accurate and efficient test scripts to manage automated testing for Android using Appium.",
-    "🏆 ELK setup to present the difference quality matrix - Created accurate and efficient test scripts to manage automated testing for Android using Appium.",
-    "🏆 API Automation Framework setup and enhancements to reduce overall execution time - Created accurate and efficient test scripts to manage automated testing for Android using Appium.",
+    "🏆 Dashbord setup using python library named streamlit to do day to day work on a single click.",
+    "🏆 ELK setup to present the difference quality matrix by setting up log parser on the services.",
+    "🏆 API Automation Framework setup and enhancements to reduce overall execution time",
     "🏆 Android Automation of Recharges & Utilities - Created accurate and efficient test scripts to manage automated testing for Android using Appium.",
     "🏆 IOS Automation of Recharges & Utilities - Created accurate and efficient test scripts to manage automated testing for IOS using XCUITest.",
 ]
